@@ -18,16 +18,21 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #FFF;
 }
 
 @layer utilities {
-  .text-balance {
+  .text-balance { 
     text-wrap: balance;
   }
+}
+
+h1, h2 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+
+h3 {
+  font-size: 40px;
 }
